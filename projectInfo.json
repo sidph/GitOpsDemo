@@ -1,0 +1,18 @@
+{
+    "productId": "prd_SPM",
+    "contractId": "ctr_F-G2DPUK",
+    "groupIds": [
+        102945
+    ],
+    "environments": [
+        "dev",
+        "preprod",
+        "prod"
+    ],
+    "version": "0.5.1",
+    "isSecure": true,
+    "edgeGridConfig": {
+        "section": "papi"
+    },
+    "name": "GitOps"
+}

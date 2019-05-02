@@ -1,0 +1,27 @@
+{
+    "name": "API",
+    "children": [],
+    "behaviors": [
+        {
+            "name": "caching",
+            "options": {
+                "behavior": "MAX_AGE",
+                "mustRevalidate": false,
+                "ttl": "1m"
+            }
+        }
+    ],
+    "criteria": [
+        {
+            "name": "path",
+            "options": {
+                "matchOperator": "MATCHES_ONE_OF",
+                "values": [
+                    "/api/*"
+                ],
+                "matchCaseSensitive": false
+            }
+        }
+    ],
+    "criteriaMustSatisfy": "all"
+}

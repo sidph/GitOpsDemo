@@ -1,0 +1,107 @@
+{
+    "name": "dev",
+    "propertyName": "dev.GitOps",
+    "groupId": 102945,
+    "isSecure": true,
+    "propertyId": 541298,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "skee55rxjeo6qtsz",
+        "updatedDate": "2019-05-02T16:43:43Z",
+        "productionStatus": "PENDING",
+        "stagingStatus": "ACTIVE",
+        "etag": "f6b44be26ea63053601f70c81c40735c27c800f2",
+        "productId": "prd_SPM",
+        "ruleFormat": "v2018-02-27"
+    },
+    "suggestedRuleFormat": "v2018-02-27",
+    "environmentHash": "cc8bf9107e58b0c5c7ed1cb56fd34d01336967df41b068b1f6f1b291ea039c6e",
+    "ruleTreeHash": "3213d5bb8142e2b3d8b86ff703e860b957d45db3533429028ab66aaac73f0148",
+    "lastSavedHash": "cc8bf9107e58b0c5c7ed1cb56fd34d01336967df41b068b1f6f1b291ea039c6e",
+    "lastValidatedHash": "cc8bf9107e58b0c5c7ed1cb56fd34d01336967df41b068b1f6f1b291ea039c6e",
+    "lastSaveWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/6",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "REQUEST_HOST_HEADER",
+                        "compress": true,
+                        "enableTrueClientIp": true,
+                        "trueClientIpHeader": "True-Client-IP",
+                        "trueClientIpClientSetting": false,
+                        "forwardHostHeader": "CUSTOM",
+                        "customForwardHostHeader": "www.sids-taqueria.com",
+                        "hostname": "dev.sids-taqueria.com",
+                        "httpPort": 80,
+                        "originType": "CUSTOMER",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "httpsPort": 443,
+                        "originSni": true,
+                        "originCertificate": "",
+                        "ports": "",
+                        "useUniqueCacheKey": false
+                    }
+                }
+            },
+            "detail": "Akamai enhanced the `Origin Server` behavior. Before configuring any settings, click the <strong>Verification Settings</strong> drop-down menu and read the context-sensitive information that appears."
+        },
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/6",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "REQUEST_HOST_HEADER",
+                        "compress": true,
+                        "enableTrueClientIp": true,
+                        "trueClientIpHeader": "True-Client-IP",
+                        "trueClientIpClientSetting": false,
+                        "forwardHostHeader": "CUSTOM",
+                        "customForwardHostHeader": "www.sids-taqueria.com",
+                        "hostname": "dev.sids-taqueria.com",
+                        "httpPort": 80,
+                        "originType": "CUSTOMER",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "httpsPort": 443,
+                        "originSni": true,
+                        "originCertificate": "",
+                        "ports": "",
+                        "useUniqueCacheKey": false
+                    }
+                }
+            },
+            "detail": "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+        }
+    ],
+    "lastSaveErrors": [],
+    "lastSaveHostnameErrors": [],
+    "lastSaveHostnameWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/secure_property_insecure_edge_hostname",
+            "errorLocation": "#/hostnames/items/0",
+            "detail": "The Edge Hostname `dev.sids-taqueria.com.edgesuite.net` is incompatible with the Enhanced TLS/Shared Cert security option. Please select an Enhanced TLS Edge Hostname (eg: example.edgekey.net) or use a Shared Cert hostname."
+        }
+    ],
+    "lastSavedHostnamesHash": "c7c2fdb7d8617b359788080849554474f7f2abe7784f19de7a2257b33e42a930",
+    "activeIn_STAGING_Info": {
+        "propertyVersion": 1,
+        "updatedByUser": "skee55rxjeo6qtsz",
+        "updatedDate": "2019-05-02T16:43:43Z",
+        "productionStatus": "PENDING",
+        "stagingStatus": "ACTIVE",
+        "etag": "f6b44be26ea63053601f70c81c40735c27c800f2",
+        "productId": "prd_SPM",
+        "ruleFormat": "v2018-02-27"
+    },
+    "pendingActivations": {
+        "PRODUCTION": 7165973
+    }
+}

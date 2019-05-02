@@ -1,0 +1,8 @@
+[
+    {
+        "cnameFrom": "preprod.GitOps",
+        "cnameTo": "qa.www.sids-taqueria.com.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": 3203824
+    }
+]

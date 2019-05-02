@@ -1,0 +1,9 @@
+[
+    {
+        "cnameFrom": "dev.GitOps",
+        "cnameTo": "dev.sids-taqueria.com.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": 2875946,
+        "ipVersionBehavior": "IPV6_COMPLIANCE"
+    }
+]
